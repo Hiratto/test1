@@ -22,3 +22,11 @@
 // const [name,age] = myPlofile;
 // const message4 = `名前は${name}です。年齢は${age}歳です。`;
 // console.log(message4);
+
+// ======================
+// デフォルト値
+
+// 引数に何もないとundifinedと表示されるが、(name = 'ゲスト')のように
+// デフォルト値を設定するとその文字列が表示される
+const sayHello = (name = "ゲスト") => console.log(`こんにちは、${name}さん！`);
+sayHello();
