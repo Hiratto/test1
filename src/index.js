@@ -28,5 +28,18 @@
 
 // 引数に何もないとundifinedと表示されるが、(name = 'ゲスト')のように
 // デフォルト値を設定するとその文字列が表示される
-const sayHello = (name = "ゲスト") => console.log(`こんにちは、${name}さん！`);
-sayHello();
+// const sayHello = (name = "ゲスト") => console.log(`こんにちは、${name}さん！`);
+// sayHello();
+
+// スプレッド構文　...
+
+// 配列の展開
+// const arr1 = [1,2];
+// console.log(arr1);
+// // ...の後に配列を書くと配列の中身を展開してくれる
+// console.log(...arr1);
+
+// const sumFunc = (num1,num2) => console.log(num1 + num2);
+// sumFunc(arr1[0],arr1[1]);
+// ...をつければ中身を展開
+// sumFunc(...arr1);
