@@ -64,3 +64,36 @@
 
 // const arr7 = [...arr4,...arr5];
 // console.log(arr7);
+
+
+// mapやfilterを使った配列の処理
+
+// const nameArr = ["山田","田中","伊藤"];
+
+// // const nameArr2 = nameArr.map((name)=>{
+// //   return name;
+// // });
+
+// // console.log(nameArr);
+
+// const numArr = [1,2,3,4,5];
+// const newNumArr = numArr.filter((num)=>{
+//   return num % 2 === 1;
+// });
+// console.log(newNumArr);
+
+
+// // 特定の人だけ「さん」づけにする
+// const newNameArr = nameArr.map((name)=>{
+//   if (name === "山田") {
+//     return name
+//   } else {
+//     return `${name}さん`
+//   }
+// })
+
+// console.log(newNameArr);
+
+
+// ======================
+
