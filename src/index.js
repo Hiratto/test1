@@ -65,7 +65,6 @@
 // const arr7 = [...arr4,...arr5];
 // console.log(arr7);
 
-
 // mapやfilterを使った配列の処理
 
 // const nameArr = ["山田","田中","伊藤"];
@@ -82,7 +81,6 @@
 // });
 // console.log(newNumArr);
 
-
 // // 特定の人だけ「さん」づけにする
 // const newNameArr = nameArr.map((name)=>{
 //   if (name === "山田") {
@@ -94,6 +92,10 @@
 
 // console.log(newNameArr);
 
-
 // ======================
 
+// 三項演算子
+
+// ある条件　？　　条件がtrueの時　: 条件がfalseの時　；
+// const val1 = 1 > 0 ? 'trueです' : 'falseです';
+// console.log(val1);
