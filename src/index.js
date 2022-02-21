@@ -116,3 +116,30 @@
 // console.log(checkSum(50,40));
 
 // ======================
+
+// 論理演算子の本当の意味を知ろう　 && ||
+
+// const flag1 = true;
+// const flag2 = false;
+
+// || または
+// if (flag1 || flag2){
+//   console.log('1か2はTrueになります');
+// }
+
+// && かつ
+// if (flag1 && flag2){
+//   console.log('1も2もTrueになります');
+// }
+
+// ||は左側が　falseなら右側を返すという意味
+// const num = null;
+// const fee = num || '金額未設定です';
+// console.log(fee);
+
+// &&は左側が　trueなら右側を返すという意味
+// const num2 = 100;
+// const fee2 = num2 && '何か設定されました';
+// console.log(fee2);
+
+// ======================
