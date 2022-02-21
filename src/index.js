@@ -99,3 +99,20 @@
 // ある条件　？　　条件がtrueの時　: 条件がfalseの時　；
 // const val1 = 1 > 0 ? 'trueです' : 'falseです';
 // console.log(val1);
+
+// const num ='1300';
+// // 3桁区切りでカンマを打ちたい時は”toLocaleString”
+// // console.log(num.toLocaleString());
+
+// // 文字列エラーを知らせる
+// const formattedNum = typeof num === 'number' ? num.toLocaleString() : '数値を入力してください';
+// console.log(formattedNum);
+
+// 足した数が100を超えているか？
+// const checkSum = (num1,num2) => {
+//   return num1 + num2 > 100 ? '100を超えています'　: '許容範囲です';
+// }
+
+// console.log(checkSum(50,40));
+
+// ======================
